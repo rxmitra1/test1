@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:students xmlns:p="http://ravi.room/tags" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ravi.room/tags students.xsd ">
+  <p:student>
+    <p:sno>0</p:sno>
+    <p:name>p:name</p:name>
+  </p:student>
+</p:students>

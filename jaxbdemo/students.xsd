@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <ts:schema xmlns:ts="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ravi.room/tags"
+	xmlns="http://ravi.room/tags" elementFormDefault="qualified">
+
+
+	<ts:element name="students" type="studentsType" />
+
+		<ts:complexType name="studentsType">
+
+			<ts:sequence>
+				<ts:element name="student" type="studentType" />
+			</ts:sequence>
+		</ts:complexType>
+		<ts:complexType name="studentType">
+			<ts:sequence>
+				<ts:element name="sno" type="ts:integer" />
+				<ts:element name="name" type="ts:string" />
+
+			</ts:sequence>
+
+		</ts:complexType>
+
+
+	
+
+
+
+
+</ts:schema>
